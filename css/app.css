@@ -1,0 +1,100 @@
+body {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    font-family: 'Staatliches', cursive;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 6rem;
+    padding: 3rem 0;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 2rem;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+form {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem;
+    background: white;
+    margin-bottom: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app p {
+    text-align: left !important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#resultado p {
+    margin: 0;
+    padding: 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#resultado p span {
+    font-weight: bold;
+}
+
+#resultado p:last-of-type {
+    border: none;
+}
+
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+}
+
+.error {
+    background-color: red;
+}
+
+.sitio-web {
+    color: white;
+    display: block;
+    font-size: 4rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.sitio-web:hover {
+    font-size: 100px;
+    background: red;
+    font-weight: bold;
+    background: -webkit-linear-gradient(to right, #94faff 0%, #abd8ff 40%);
+    background: -moz-linear-gradient(to right, #94faff 0%, #abd8ff 40%);
+    background: linear-gradient(to right, #94faff 0%, #abd8ff 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
